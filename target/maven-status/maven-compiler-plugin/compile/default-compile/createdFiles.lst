@@ -1,5 +1,0 @@
-pages/DashboardPage.class
-utils/ConfigReader.class
-base/PlaywrightFactory.class
-base/BasePage.class
-pages/LoginPage.class
