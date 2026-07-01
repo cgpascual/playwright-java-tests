@@ -14,8 +14,9 @@ public class BaseTest {
 
         config = new ConfigReader();
 
-        page = PlaywrightFactory.initBrowser(
-                Boolean.parseBoolean(config.get("headless")));
+        boolean headless = Boolean.parseBoolean(System.getProperty("headless",config.get("headless")));
+
+        page = PlaywrightFactory.initBrowser(headless);
     }
 
     @AfterMethod
