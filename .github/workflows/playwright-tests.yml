@@ -2,9 +2,13 @@ name: Playwright Java Tests
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - feature/*
+      - develop
   pull_request:
-    branches: [ main ]
+    branches:
+      - develop
+      - main
 
 jobs:
   test:
