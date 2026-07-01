@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="18.601" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/collabera.digital/geopascual/playwright-java-ohrm/target/test-classes:/Users/collabera.digital/geopascual/playwright-java-ohrm/target/classes:/Users/collabera.digital/.m2/repository/com/microsoft/playwright/playwright/1.60.0/playwright-1.60.0.jar:/Users/collabera.digital/.m2/repository/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar:/Users/collabera.digital/.m2/repository/com/google/errorprone/error_prone_annotations/2.48.0/error_prone_annotations-2.48.0.jar:/Users/collabera.digital/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/collabera.digital/.m2/repository/com/microsoft/playwright/driver/1.60.0/driver-1.60.0.jar:/Users/collabera.digital/.m2/repository/com/microsoft/playwright/driver-bundle/1.60.0/driver-bundle-1.60.0.jar:/Users/collabera.digital/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/collabera.digital/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/collabera.digital/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/collabera.digital/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Manila"/>
+    <property name="suiteXmlFile" value="testng.xml"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PH"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/collabera.digital/geopascual/playwright-java-ohrm/target/surefire/surefirebooter-20260701125500274_3.jar /Users/collabera.digital/geopascual/playwright-java-ohrm/target/surefire 2026-07-01T12-55-00_232-jvmRun1 surefire-20260701125500274_1tmp surefire_0-20260701125500274_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/collabera.digital/geopascual/playwright-java-ohrm/target/test-classes:/Users/collabera.digital/geopascual/playwright-java-ohrm/target/classes:/Users/collabera.digital/.m2/repository/com/microsoft/playwright/playwright/1.60.0/playwright-1.60.0.jar:/Users/collabera.digital/.m2/repository/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar:/Users/collabera.digital/.m2/repository/com/google/errorprone/error_prone_annotations/2.48.0/error_prone_annotations-2.48.0.jar:/Users/collabera.digital/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/collabera.digital/.m2/repository/com/microsoft/playwright/driver/1.60.0/driver-1.60.0.jar:/Users/collabera.digital/.m2/repository/com/microsoft/playwright/driver-bundle/1.60.0/driver-bundle-1.60.0.jar:/Users/collabera.digital/.m2/repository/org/testng/testng/7.12.0/testng-7.12.0.jar:/Users/collabera.digital/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/Users/collabera.digital/.m2/repository/org/jcommander/jcommander/1.83/jcommander-1.83.jar:/Users/collabera.digital/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/collabera.digital"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/collabera.digital/geopascual/playwright-java-ohrm"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/collabera.digital/geopascual/playwright-java-ohrm/target/surefire/surefirebooter-20260701125500274_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="collabera.digital"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/collabera.digital/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/1t/g2j3thcj2nv4x9c648s4bn640000gn/T/"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/Users/collabera.digital/geopascual/playwright-java-ohrm"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/collabera.digital/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="successfulLogin" classname="tests.LoginTest" time="10.704">
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+</testsuite>
