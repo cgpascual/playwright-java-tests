@@ -12,12 +12,15 @@ public class BaseTest {
     @BeforeMethod
     public void setup() {
 
-        config = new ConfigReader();
+    config = new ConfigReader();
 
-        boolean headless = Boolean.parseBoolean(System.getProperty("headless",config.get("headless")));
+    boolean headless = Boolean.parseBoolean(
+        System.getProperty("headless", config.get("headless"))
+    );
 
-        page = PlaywrightFactory.initBrowser(headless);
-    }
+    page = PlaywrightFactory.initBrowser(headless);
+
+}
 
     @AfterMethod
     public void teardown() {
