@@ -2,6 +2,7 @@ package pages;
 
 import base.BasePage;
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.AriaRole;
 
 public class LoginPage extends BasePage {
     protected String username = "input[name='username']";
@@ -22,6 +23,21 @@ public class LoginPage extends BasePage {
         page.locator(loginButton).click();
 
         return new DashboardPage(page);
+    }
+
+    public DashboardPage loginAsValidUser(String user, String pass) {
+
+        logIn(user, pass);
+
+        return new DashboardPage(page);
+    }
+
+    public boolean isInvalidCredentialsDisplayed() {
+
+        String alertMessage = page.getByRole(AriaRole.ALERT).textContent();
+
+        return page.getByRole(AriaRole.ALERT).isVisible()
+                && alertMessage.contains("Invalid credentials");
     }
 
 

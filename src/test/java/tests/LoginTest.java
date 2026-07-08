@@ -13,8 +13,55 @@ public class LoginTest extends BaseTest {
         LoginPage loginPage = new LoginPage(page);
         loginPage.open(config.get("url"));
 
-        DashboardPage dashboardPage = loginPage.logIn(config.get("username"), config.get("password"));
+        DashboardPage dashboardPage = loginPage.loginAsValidUser(
+                config.get("username"),
+                config.get("password")
+        );
+        page.waitForTimeout(5000);
 
-        Assert.assertTrue(dashboardPage.isDashboardDisplayed(), "Dashboard is displayed");
+        Assert.assertTrue(
+                dashboardPage.isDashboardContentDisplayed(),
+                "Dashboard contents should be displayed."
+        );
+    }
+
+    @Test
+    public void loginErrorInvalidUsername(){
+
+        LoginPage loginPage = new LoginPage(page);
+
+        loginPage.open(config.get("url"));
+
+        loginPage.logIn(
+                config.get("invalidusername"),
+                config.get("password")
+        );
+
+        page.waitForTimeout(5000);
+
+        Assert.assertTrue(
+                loginPage.isInvalidCredentialsDisplayed(),
+                "Invalid credentials error message should be displayed."
+        );
+    }
+
+    @Test
+    public void loginErrorInvalidPassword(){
+
+        LoginPage loginPage = new LoginPage(page);
+
+        loginPage.open(config.get("url"));
+
+        loginPage.logIn(
+                config.get("username"),
+                config.get("invalidpassword")
+        );
+
+        page.waitForTimeout(5000);
+
+        Assert.assertTrue(
+                loginPage.isInvalidCredentialsDisplayed(),
+                "Invalid credentials error message should be displayed."
+        );
     }
 }
