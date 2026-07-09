@@ -2,7 +2,6 @@ package pages;
 
 import base.BasePage;
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.options.AriaRole;
 
 public class DashboardPage extends BasePage {
     public DashboardPage(Page page) {

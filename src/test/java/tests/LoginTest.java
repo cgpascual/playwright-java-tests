@@ -8,7 +8,7 @@ import pages.LoginPage;
 
 public class LoginTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"smoke", "login", "positive"})
     public void successfulLogin(){
         LoginPage loginPage = new LoginPage(page);
         loginPage.open(config.get("url"));
@@ -25,7 +25,7 @@ public class LoginTest extends BaseTest {
         );
     }
 
-    @Test
+    @Test(groups = {"regression", "login", "negative"})
     public void loginErrorInvalidUsername(){
 
         LoginPage loginPage = new LoginPage(page);
@@ -45,7 +45,7 @@ public class LoginTest extends BaseTest {
         );
     }
 
-    @Test
+    @Test(groups = {"regression", "login", "negative"})
     public void loginErrorInvalidPassword(){
 
         LoginPage loginPage = new LoginPage(page);
