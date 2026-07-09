@@ -63,5 +63,6 @@ public class LoginTest extends BaseTest {
                 loginPage.isInvalidCredentialsDisplayed(),
                 "Invalid credentials error message should be displayed."
         );
+        
     }
 }
