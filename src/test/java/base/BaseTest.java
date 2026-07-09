@@ -12,6 +12,8 @@ public class BaseTest {
     @BeforeMethod
     public void setup() {
 
+    System.out.println("========== SETUP START ==========");
+
     config = new ConfigReader();
 
     boolean headless = Boolean.parseBoolean(
