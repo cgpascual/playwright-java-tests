@@ -22,6 +22,8 @@ public class BaseTest {
 
     page = PlaywrightFactory.initBrowser(headless);
 
+    System.out.println("===== BASE TEST SETUP END =====");
+
 }
 
     @AfterMethod
